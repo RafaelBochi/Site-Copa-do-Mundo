@@ -32,6 +32,10 @@ main {
     height: 6%;
 }
 
+.navbar-brand {
+    margin-top: -0.5%;
+}
+
 .tittleChamp  {
     width: 90%;
 }

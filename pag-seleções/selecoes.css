@@ -32,21 +32,34 @@ main {
     height: 6%  ;
 }   
 
+.accordion-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
 .accordion-collapse {
     display: flex;
     flex-direction: row;
-    gap: 2%;
+    gap: 3%;
     padding: 1%;
     overflow-x: auto;
 }
 
 .jogadores {
-    width: 25%;
-    border: 1px solid black;
+    width: 30%;
     padding: 1%;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .jogadores img {
-    width: 160px;
-    
+    border-radius: 12px;
+    margin-bottom: 5%;
+}
+
+.descJogadores strong {
+    font-size: 1.6rem;
 }

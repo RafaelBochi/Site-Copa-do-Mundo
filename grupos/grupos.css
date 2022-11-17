@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    padding-top: 3%;
+}
+
+nav {
+    z-index: 999;
+    background-color: white;
+}
+
+.navbar-collapse {
+    background-color: white;
+    z-index: 999;
+    transition: 0.1s;
+}
+
+.navbar {
+    font-size: 1.6rem;
+    top: 0;
+    z-index: 999;
+    height: 6%  ;
+} 
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        padding: 1%;
+        margin-top: 1%;
+        visibility: hidden;
+    }
+}
+
+/* Classes Gerais */
+
+.close {
+    visibility: visible;
+}

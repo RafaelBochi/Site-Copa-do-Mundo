@@ -25,6 +25,16 @@ main {
     padding-top: 3%;
 }
 
+nav {
+    z-index: 999;
+    background-color: white;
+}
+
+.navbar-collapse {
+    background-color: white;
+    z-index: 999;
+}
+
 .navbar {
     font-size: 1.6rem;
     top: 0;
@@ -36,9 +46,11 @@ main {
     display: flex;
     flex-direction: row;
     gap: 1%;
+    margin-top: 2%;
 }
 
 .accordion-collapse {
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
     gap: 3%;
@@ -48,7 +60,6 @@ main {
 
 .jogadores {
     width: 30%;
-    padding: 1%;
     font-size: 1.3rem;
     display: flex;
     flex-direction: column;
@@ -58,8 +69,48 @@ main {
 .jogadores img {
     border-radius: 12px;
     margin-bottom: 5%;
+    width: 160px;
 }
 
 .descJogadores strong {
     font-size: 1.6rem;
+}
+
+@media screen and (max-width: 500px) {
+    .jogadores img {
+        width: 80px;
+    }
+
+    .jogadores {
+        margin-bottom: 0;
+    }
+
+    .accordion {
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 622px) {
+
+    .accordion-item {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        padding: 1%;
+        margin-top: 1%;
+    }
+
+    .accordion-item {
+        margin-top: 6%;
+    }
+
+}
+
+/* Classes Gerais */
+
+.close {
+    display: none;
 }

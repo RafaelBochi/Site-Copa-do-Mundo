@@ -25,16 +25,22 @@ main {
     padding-top: 3%;
 }
 
+nav {
+    z-index: 999;
+    background-color: white;
+}
+
+.navbar-collapse {
+    background-color: white;
+    z-index: 999;
+}
+
 .navbar {
     font-size: 1.6rem;
     top: 0;
     z-index: 999;
-    height: 6%;
-}
-
-.navbar-brand {
-    margin-top: -0.5%;
-}
+    height: 6%  ;
+} 
 
 .tittleChamp  {
     width: 90%;
@@ -86,4 +92,17 @@ main {
     main {
         padding-top: 20%;
     }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        padding: 1%;
+        margin-top: 1%;
+    }
+}
+
+/* Classes Gerais */
+
+.close {
+    display: none;
 }

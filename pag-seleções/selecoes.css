@@ -33,6 +33,7 @@ nav {
 .navbar-collapse {
     background-color: white;
     z-index: 999;
+    transition: 0.1s;
 }
 
 .navbar {
@@ -98,19 +99,20 @@ nav {
 }
 
 @media screen and (max-width: 991px) {
-    .navbar-collapse {
-        padding: 1%;
-        margin-top: 1%;
-    }
 
     .accordion-item {
         margin-top: 6%;
     }
 
+    .navbar-collapse {
+        padding: 1%;
+        margin-top: 1%;
+        visibility: hidden;
+    }
 }
 
 /* Classes Gerais */
 
 .close {
-    display: none;
+    visibility: visible;
 }

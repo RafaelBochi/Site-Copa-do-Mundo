@@ -56,7 +56,11 @@ nav {
     justify-content: center;
 }
 
-.jogosGpA {
+.nav-link {
+    cursor: pointer;
+}
+
+.jogosGpA , .jogosGpB , .jogosGpC , .jogosGpD , .jogosGpE , .jogosGpF , .jogosGpG , .jogosGpH  , .elimin {
     margin: auto;
     width: 41%;
     display: flex;
@@ -64,6 +68,11 @@ nav {
     font-size: 1.4rem;
     gap: 5%;
     padding-top: 1%;
+    display: none;
+}
+
+.jogosGpA {
+    display: flex;
 }
 
 .card {
@@ -77,3 +86,4 @@ nav {
     align-items: center;
     gap: 10%;
 }
+

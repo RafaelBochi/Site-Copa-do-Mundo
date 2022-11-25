@@ -42,3 +42,38 @@ nav {
     z-index: 999;
     height: 6%  ;
 } 
+
+.secJogos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.navJogos {
+    margin: auto;
+    margin-top: 0.5%;
+    font-size: 1.3rem;
+    justify-content: center;
+}
+
+.jogosGpA {
+    margin: auto;
+    width: 41%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    gap: 5%;
+    padding-top: 1%;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}

@@ -43,66 +43,60 @@ nav {
     height: 6%  ;
 }   
 
-.accordion-button {
-    display: flex;
-    flex-direction: row;
-    gap: 1%;
-    margin-top: 2%;
+.input {
+    margin: 1%;
+    font-size: 2.0rem !important;
 }
 
-.accordion-collapse {
-    margin-top: 1%;
+.inputs {
     display: flex;
-    flex-direction: row;
-    gap: 3%;
-    padding: 1%;
-    overflow-x: auto;
+    height: 10%;
+    align-items: center;
+    gap: 0;
 }
 
-.jogadores {
-    width: 30%;
-    font-size: 1.3rem;
+.inputs > label {
+    height: 55%;
+    cursor: pointer;
+}
+
+.input {
+    width: 90%;
+    height: 55%;
+    outline: 0;    
+}
+
+.nomeJogadores {
+    font-size: 2.0rem;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
 }
 
-.jogadores img {
-    border-radius: 12px;
-    margin-bottom: 5%;
-    width: 160px;
+.nomeJogadores h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #56042C;
 }
 
-.descJogadores strong {
-    font-size: 1.6rem;
+.nomeJogadores p {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
-    .jogadores img {
-        width: 80px;
-    }
-
-    .jogadores {
-        margin-bottom: 0;
-    }
-
-    .accordion {
-        margin-top: 3%;
-    }
-}
-
-@media screen and (max-width: 622px) {
-
-    .accordion-item {
-        margin-top: 10%;
-    }
+.nomeJogadores span {
+    color: red;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 991px) {
 
-    .accordion-item {
-        margin-top: 6%;
-    }
+    
 
     .navbar-collapse {
         padding: 1%;
@@ -115,4 +109,8 @@ nav {
 
 .close {
     visibility: visible;
+}
+
+.hide {
+    display: none;
 }

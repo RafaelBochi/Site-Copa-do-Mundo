@@ -27,13 +27,15 @@ main {
 
 nav {
     z-index: 999;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white !important;
 }
 
 .navbar-collapse {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     z-index: 999;
     transition: 0.1s;
+    color: white !important;
 }
 
 .navbar {
@@ -41,7 +43,12 @@ nav {
     top: 0;
     z-index: 999;
     height: 6%  ;
+    color: white !important;
 } 
+
+.navbar-item {
+    color: white !important;
+}
 
 .secGrupos {
     width: 80%;
@@ -52,6 +59,7 @@ nav {
     gap: 3%;
     justify-content: center;
     font-size: 1.3rem;
+    color: whitesmoke !important;
 }
 
 .secGrupos .list-group {
@@ -59,10 +67,11 @@ nav {
     height: 300px;
     margin: 1%;
     border-radius: 100% 100% 100% 100% / 20% 20% 20% 20%;
-    background-color: #e6ded6;
+    background-color: #56042C;
     padding: 1%;
     align-items: center;
     padding-bottom: 2%;
+    color: whitesmoke !important;
 }
 
 .secGrupos .list-group .list-group-item {
@@ -73,6 +82,7 @@ nav {
     gap: 15%;
     background-color: transparent;
     width: 50%;
+    color: whitesmoke !important;
 }
 
 .secGrupos .list-group .active {
